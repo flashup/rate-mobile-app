@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<section if="ios">
+		<ndll name="ratemobileapp" />
+		<dependency name="Foundation.framework" />
+		<ios linker-flags="-ObjC" />
+	</section>
+
+	<section if="android">
+		<dependency name="ratemobileapp" path="dependencies/android" />
+		<android extension="com.moxisgames.ratemobileapp.RateMobileApp" />
+	</section>
+	
+</project>
