@@ -1,12 +1,12 @@
 {
   "name": "rate-mobile-app",
-  "url": "",
+  "url": "https://github.com/flashup/rate-mobile-app",
   "license": "MIT",
   "tags": ["android", "ios", "mobile", "rate"],
   "description": "Library for opening app page in stores for rate app",
   "version": "0.0.1",
   "releasenote": "Initial release",
-  "contributors": ["Marat Ismagilov"],
+  "contributors": ["flashup"],
   "dependencies": {
   }
 }

@@ -22,7 +22,13 @@ class RateMobileApp {
 		if (appId == null) {
 			throw "[RateMobileApp] You must provide appId for iOS target!";
 		}
+
 		var openRateAppLink:Dynamic = Lib.load("ratemobileapp", "ratemobileapp_openRateAppLink", 1);
+		if (openRateAppLink == null) {
+			trace("[RateMobileApp] openRateAppLink function is null!");
+			return;
+		}
+
 		openRateAppLink(appId);
 		#end
 	}

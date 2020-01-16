@@ -2,7 +2,7 @@ Rate Mobile App
 ===============
 Haxe extension for opening mobile application page in stores.
 
-###How to use
+### How to use
 Add following line in project.xml:
 ```
 <haxelib name="rate-mobile-app" />
