@@ -1,9 +1,6 @@
 buildscript {
 	repositories {
-		maven {
-			url 'https://maven.google.com'
-		}
-		jcenter()
+		mavenCentral()
 	}
 	dependencies {
 		classpath 'com.android.tools.build:gradle:2.1.0'
@@ -24,6 +21,5 @@ android {
 }
 
 dependencies {
-	compile project(':deps:extension-api')
-	compile 'com.google.android.play:core:1.6.0'
+	api project(':deps:extension-api')
 }

@@ -8,7 +8,7 @@ import cpp.Lib;
 
 class RateMobileApp {
 	#if android
-	static private inline var ANDROID_CLASS_PATH:String = "com.moxisgames.android.RateMobileApp";
+	static private inline var ANDROID_CLASS_PATH:String = "com.moxisgames.ratemobileapp.RateMobileApp";
 	#end
 
 	/**
